@@ -78,3 +78,4 @@ public class ParkingZone {
     public List<ParkingSlot> getSlots() { return slots; }
     public void setSlots(List<ParkingSlot> slots) { this.slots = slots; }
 }
+

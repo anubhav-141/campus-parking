@@ -9,3 +9,4 @@ import java.util.List;
 public interface ParkingZoneRepository extends JpaRepository<ParkingZone, Long> {
     List<ParkingZone> findByStatus(ParkingZone.ZoneStatus status);
 }
+

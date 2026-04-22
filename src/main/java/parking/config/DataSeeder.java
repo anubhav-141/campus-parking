@@ -116,3 +116,4 @@ public class DataSeeder implements CommandLineRunner {
         System.out.println("   Users: user1/password123, security1/password123, admin1/password123");
     }
 }
+

@@ -215,3 +215,4 @@ class ReservationServiceTest {
         assertEquals(ParkingSlot.SlotStatus.MAINTENANCE, slot.getStatus());
     }
 }
+

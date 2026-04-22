@@ -285,3 +285,4 @@ const Router = {
 document.addEventListener('DOMContentLoaded', () => {
     Router.init();
 });
+

@@ -30,3 +30,4 @@ class ParkingServiceTest {
         assertEquals("Z", ParkingService.deriveZoneCode(null));
     }
 }
+

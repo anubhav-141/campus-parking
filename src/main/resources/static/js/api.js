@@ -107,3 +107,4 @@ const API = {
         return this.get(`/admin/audit?page=${page}&size=${size}`);
     },
 };
+
