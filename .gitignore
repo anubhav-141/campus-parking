@@ -1,0 +1,40 @@
+# --- Build output ---
+target/
+*.class
+*.jar
+*.war
+
+# --- H2 database files (auto-generated at runtime) ---
+data/
+*.db
+*.trace.db
+*.lock.db
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+nbproject/
+
+# --- Logs ---
+*.log
+logs/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# --- Local env / secrets ---
+.env
+.env.local
+application-local.properties
+
+# --- Project-specific: not meant for the repo ---
+PUSH_INSTRUCTIONS.md
